@@ -19,16 +19,16 @@ li img{
   margin-top:15px;
 }
 
-/* need to find font  */
 h1{
   font-size: 45px;
-  
+  font-family: 'Yellowtail', cursive;
+
 }
 
-/* need to find font  */
 
 header p{
   font-size:10px;
+  font-family: 'KoHo', sans-serif;
 
 }
 
@@ -74,7 +74,21 @@ main h2{
   margin-bottom: 7px;
   
 }
+main p{
+  font-size: 14px;
+  color: rgb(165, 165, 165);
+  font-family: 'KoHo', sans-serif;
+}
 
+.print{
+  float:right;
+  
+}
+
+.print img,
+.print p{
+  display: inline;
+}
 
 
 
