@@ -127,6 +127,15 @@ span {
   
 }
 
+input[type="checkbox"]{
+  appearance: none;
+  border: solid 1px gray;
+  border-radius: 25%;
+  height: 10px;
+  width: 10px;
+
+}
+
 #bio{
   float:left;
   margin-top: 10px;
@@ -159,6 +168,30 @@ button{
 	text-decoration:none;
   border:none;
 }
+footer{
+  padding:35px 200px 0px 200px;
+  display: block;
+  margin-top: 200px;
+  text-align: center;
+}
+
+footer img{
+  position: relative;
+  top:-33px;
+  box-shadow: white;
+  border:7px solid white;
+}
+
+footer p{
+  text-align: center;
+  width: 300px;
+  align-content: center;
+  margin: auto;
+  color: #909090;
+  font-size: 15px;
+}
+
+
 
 
 
